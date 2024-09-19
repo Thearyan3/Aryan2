@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello file</h1>
+    <ul>
+        <li class="a">item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li class="a">item4</li>
+        <li>item5</li>
+        <li class="b">item6</li>
+        <li>item7</li>
+        <li>item8</li>
+        <li id="c">item9</li>
+        <li>item10</li>
+        <li>item11</li>
+        <li id="d">item12</li>
+    </ul>
+
+    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, impedit voluptatibus quaerat deleniti esse eaque accusantium repellat ipsa aliquam expedita perspiciatis eveniet ullam necessitatibus hic quod praesentium veniam dolor accusamus excepturi doloribus quasi minima tempore? Cumque iste architecto alias ipsa tenetur, fugiat rerum laborum id itaque soluta labore dolorem ducimus omnis aut voluptatibus accusamus voluptates reprehenderit.</p> -->
+
+</body>
+<style>
+
+    /* .a{
+        background-color: green;
+    }
+
+    .b{
+        background-color: red;
+    }
+
+    #c{
+        background-color: purple;
+    }
+
+    #d{
+        background-color: yellow;
+    } */
+
+     li{
+        background-color: red;
+    }
+    li:first-child{
+      background-color: green;
+    }
+    li:last-child{
+        background-color: yellow;
+    }
+    li:nth-child(3){
+        background-color: teal;
+    } 
+    p{
+        color: black;
+    }
+     p::first-line{
+    background-color: red;
+    text-decoration: underline black 5px;
+    } 
+    h1{
+        /* color: red; */
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 100px;
+        /* background-color: black; */
+        /* transition: all 2s linear; */
+    }
+    h1::before{
+        content: "before element";
+        color: yellow;
+        background-color: black;
+    }
+    h1::after{
+        content: "this is after element";
+        color: green;
+        background-color: orange;
+        font-size: 50px;
+    }
+
+    h1:hover{
+        color: yellow;
+        background-color: green;
+        font-size: 50px;
+        letter-spacing: 20px;
+        text-transform: uppercase;
+    }
+</style>
+</html>

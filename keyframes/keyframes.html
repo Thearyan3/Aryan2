@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .box{
+        background-color: red;
+        width: 50px;
+        height: 50px; 
+        animation: anim 3s linear 20 forwards;
+    }
+
+    @keyframes anim {
+        0%{
+            margin-top: 0;
+            margin-left: 0;
+        }
+        25%{
+            margin-top: 0;
+            margin-left: 96%;
+        }
+        50%{
+            margin-left: 96%;
+            margin-top: 92vh;
+        }   
+        75%{
+            margin-top: 92vh;
+            margin-left: 0;
+        }   
+        /* 100%{
+            margin-top: 0;
+            margin-left: 0;
+        }    */
+    }
+/* 
+    @keyframes anim{
+        from{
+                /* transform: rotate(0deg); */
+        /* } */
+        /* to{ */
+                /* transform: rotate(45deg); */
+                /* background-color: white;
+                border-radius: 100%;
+                transform: scale(0.1); */
+        /* } */
+    /* }  */
+</style>
+</html>
