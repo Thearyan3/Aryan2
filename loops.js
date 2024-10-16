@@ -98,8 +98,20 @@
 // console.log(newMessage);
 
 // Substring Method of String
-var name = "You will be an amazing developer";
-var newMessage = name.substring(7, 13);
-console.log(newMessage);
-var newMessage = name.substring(7);
-console.log(newMessage);
+// var name = "You will be an amazing developer";
+// var newMessage = name.substring(7, 13);
+// console.log(newMessage);
+// var newMessage = name.substring(7);
+// console.log(newMessage);
+
+// Replace Method of String
+// var name = "You will be an amazing developer";
+// console.log(name.replace('amazing', 'outstanding'));
+// console.log(name.replaceAll(' ', '_'));
+// console.log(name.trim());
+
+// // Split method of String
+// console.log(name.split("will"));
+
+// // length method of String
+// console.log(name.length);
