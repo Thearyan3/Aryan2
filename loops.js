@@ -190,9 +190,9 @@
 // console.log(myArr.lastIndexOf(3));
 
 // (xii). slice() and splice() method 
-// let myArr = [1, 2, 3, 4, 5, 6, 3];
-// console.log(myArr.slice(1, 3));
-// console.log(myArr.splice(1, 3, "a","b","c" ,"d"));
+let myArr = [1, 2, 3, 4, 5, 6, 3];
+console.log(myArr.slice(1, 3));
+console.log(myArr.splice(1, 3, "a","b","c" ,"d"));
 
 // (xiii).  reverse() and sort() method
 // let myArr = [1, 2, 3, 4, 5, 6, 3];
